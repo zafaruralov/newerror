@@ -12,13 +12,13 @@ const usersController = {
       const id = uuidv4();
       const hashedPassword = await bcrypt.hash(password, 10);
       await Database.query(
-        "INSERT INTO users (id, firstname, lastname, password, age) VALUES ($1, $2, $3, $4, $5)",
+        "INSERT INTO userdo (id, firstname, lastname, password, age) VALUES ($1, $2, $3, $4, $5)",
         [id, firstname, lastname, hashedPassword, age]
       );
 
-      const token = signJwtToken(id, firstname, lastname, age);
+      // const token = signJwtToken(id, firstname, lastname, age);
 
-      res.status(200).json({ token });
+      res.status(201).json({ token });
     } catch (error) {
       next(error);
     }
@@ -28,7 +28,7 @@ const usersController = {
       const { firstname, password } = req.body;
 
       const result = await Database.query(
-        "SELECT * FROM users WHERE firstname = $1",
+        "SELECT * FROM userdo WHERE firstname = $1",
         [firstname]
       );
       const user = result.rows[0];
@@ -47,13 +47,13 @@ const usersController = {
         return next(new AppError(400, `Password is incorrect`));
       }
 
-      const token = signJwtToken(
-        user.id,
-        user.firstname,
-        user.lastname,
-        user.type
-      );
-      res.status(200).json({ token });
+      // const token = signJwtToken(
+      //   user.id,
+      //   user.firstname,
+      //   user.lastname,
+      //   user.type
+      // );
+      res.status(200).json({ user });
     } catch (error) {
       next(error);
     }

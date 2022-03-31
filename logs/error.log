@@ -1,0 +1,16 @@
+2022-03-31 17:21:12:2112 [31merror[39m: [31mcolumn "firstname" of relation "users" does not exist[39m
+2022-03-31 17:22:08:228 [31merror[39m: [31mcolumn "firstname" of relation "users" does not exist[39m
+2022-03-31 17:24:46:2446 [31merror[39m: [31mcolumn "firstname" of relation "users" does not exist[39m
+2022-03-31 17:25:11:2511 [31merror[39m: [31mcolumn "firstname" of relation "users" does not exist[39m
+2022-03-31 17:28:46:2846 [31merror[39m: [31mcolumn "firstname" of relation "users" does not exist[39m
+2022-03-31 17:33:43:3343 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:35:19:3519 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:40:01:401 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:45:30:4530 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:45:31:4531 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:45:35:4535 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:45:56:4556 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:46:38:4638 [31merror[39m: [31mdatabase "userdo" does not exist[39m
+2022-03-31 17:47:48:4748 [31merror[39m: [31mrelation "userdo" does not exist[39m
+2022-03-31 17:48:42:4842 [31merror[39m: [31mtoken is not defined[39m
+2022-03-31 17:49:25:4925 [31merror[39m: [31mduplicate key value violates unique constraint "userdo_firstname_key"[39m

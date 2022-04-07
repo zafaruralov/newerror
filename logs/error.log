@@ -14,3 +14,4 @@
 2022-03-31 17:47:48:4748 [31merror[39m: [31mrelation "userdo" does not exist[39m
 2022-03-31 17:48:42:4842 [31merror[39m: [31mtoken is not defined[39m
 2022-03-31 17:49:25:4925 [31merror[39m: [31mduplicate key value violates unique constraint "userdo_firstname_key"[39m
+2022-04-07 19:45:25:4525 [31merror[39m: [31mduplicate key value violates unique constraint "userdo_firstname_key"[39m
